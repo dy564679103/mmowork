@@ -1,0 +1,59 @@
+{
+  "1": {
+    "TID": 1,
+    "Name": "战士",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Characters/Warrior",
+    "Description": "战士具有强大的近战攻击力，一直活跃在战斗的最前方。强大的力量和充沛的体力让他可以摧毁敌人的一切防御。（推荐新手使用）",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "2": {
+    "TID": 2,
+    "Name": "法师",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Characters/Wizard",
+    "Description": "魔法师拥有可以同时攻击多个敌人的强力魔法，但防御力较低。一旦被敌人包围，很容易陷入危险之中。（推荐中级玩家使用）",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "3": {
+    "TID": 3,
+    "Name": "弓箭手",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Characters/Archer",
+    "Description": "弓箭手擅长使用弓箭，在后方进行远距离攻击。凭借快速的移动和多样的远程攻击，使敌人根本无法靠近自己。（推荐新手使用）",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1001": {
+    "TID": 1001,
+    "Name": "恶鬼",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monsters/M1001",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1002": {
+    "TID": 1002,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Monsters/M1002",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1003": {
+    "TID": 1003,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Monsters/M1003",
+    "InitLevel": 1,
+    "Speed": 300
+  }
+}
