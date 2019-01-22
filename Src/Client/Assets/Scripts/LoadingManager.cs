@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
-
 using SkillBridge.Message;
 using ProtoBuf;
 using Services;
 
 public class LoadingManager : MonoBehaviour {
 
-    public GameObject UITips;
+    public GameObject UIGameTips;
     public GameObject UILoading;
     public GameObject UILogin;
 
@@ -26,13 +25,13 @@ public class LoadingManager : MonoBehaviour {
         Common.Log.Init("Unity");
         Common.Log.Info("LoadingManager start");
 
-        UITips.SetActive(true);
+        UIGameTips.SetActive(true);
         UILoading.SetActive(false);
         UILogin.SetActive(false);
         yield return new WaitForSeconds(2f);
         UILoading.SetActive(true);
         yield return new WaitForSeconds(1f);
-        UITips.SetActive(false);
+        UIGameTips.SetActive(false);
 
         yield return DataManager.Instance.LoadData();
 
