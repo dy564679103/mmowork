@@ -1,39 +1,25 @@
-2019-01-18 17:42:00,974 [ 1] INFO  Unity: LoadingManager start
-2019-01-18 17:42:04,197 [ 1] INFO  Unity: DataManager > DataManager()
-2019-01-18 17:42:07,411 [ 1] INFO  Unity: UserLoginRequest::user :test01 psw:123456
-2019-01-18 17:42:07,413 [ 1] INFO  Unity: ConnectToServer() Start 
-2019-01-18 17:42:07,415 [ 1] INFO  Unity: DoConnect
-2019-01-18 17:42:07,417 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2019-01-18 17:42:07,419 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2019-01-18 17:42:07,422 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2019-01-18 17:42:07,550 [ 1] INFO  Unity: OnLogin:Success [µÇÂ¼³É¹¦]
-2019-01-18 17:42:07,552 [ 1] INFO  Unity: LoadLevel: CharacterSelect
-2019-01-18 17:42:07,943 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-01-18 17:42:07,948 [ 1] INFO  Unity: Select Character: [6]CharacterWarrior[Wizard]
-2019-01-18 17:42:11,047 [ 1] INFO  Unity: SendGameEnterRequest::characterId :0
-2019-01-18 17:42:11,086 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2019-01-18 17:42:11,191 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2019-01-18 17:42:11,195 [ 1] INFO  Unity: AddCharacter:6:CharacterWarrior Map:1 Entity:SkillBridge.Message.NEntity
-2019-01-18 17:42:11,199 [ 1] INFO  Unity: AddCharacter:6:CharacterWarrior Map:1 Entity:SkillBridge.Message.NEntity
-2019-01-18 17:42:11,201 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-01-18 17:42:11,204 [ 1] INFO  Unity: OnCharacterEnter::1
-2019-01-18 17:42:11,208 [ 1] INFO  Unity: LoadLevel: MainCity
-2019-01-18 17:42:11,756 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-01-18 17:42:11,761 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIMinimap.InitMap () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:40)
-UIMinimap.Start () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:26)
+2019-01-21 17:04:19,596 [ 1] INFO  Unity: LoadingManager start
+2019-01-21 17:04:23,186 [ 1] INFO  Unity: DataManager > DataManager()
+2019-01-21 17:08:10,128 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UnityEditor.PrefabUtility.RegisterNewObjects (System.Collections.Generic.List`1 newHierarchy, System.Collections.Generic.List`1 hierarchy, System.String actionName) (at D:/unity/Editor/Mono/Prefabs/PrefabUtility.cs:147)
+UnityEditor.PrefabUtility.ReplacePrefabWithUndo (UnityEngine.GameObject target) (at D:/unity/Editor/Mono/Prefabs/PrefabUtility.cs:248)
+UnityEditor.GameObjectInspector.DoPrefabButtons (PrefabType prefabType, UnityEngine.GameObject go) (at D:/unity/Editor/Mono/Inspector/GameObjectInspector.cs:364)
+UnityEditor.GameObjectInspector.DrawInspector () (at D:/unity/Editor/Mono/Inspector/GameObjectInspector.cs:268)
+UnityEditor.GameObjectInspector.OnHeaderGUI () (at D:/unity/Editor/Mono/Inspector/GameObjectInspector.cs:178)
+UnityEditor.Editor.DrawHeader () (at D:/unity/Editor/Mono/Inspector/Editor.cs:658)
+UnityEditor.InspectorWindow.DrawEditor (UnityEditor.Editor[] editors, Int32 editorIndex, Boolean rebuildOptimizedGUIBlock, System.Boolean& showImportedObjectBarNext, UnityEngine.Rect& importedObjectBarRect) (at D:/unity/Editor/Mono/Inspector/InspectorWindow.cs:1237)
+UnityEditor.InspectorWindow.DrawEditors (UnityEditor.Editor[] editors) (at D:/unity/Editor/Mono/Inspector/InspectorWindow.cs:1141)
+UnityEditor.InspectorWindow.OnGUI () (at D:/unity/Editor/Mono/Inspector/InspectorWindow.cs:481)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at D:/unity/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at D:/unity/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at D:/unity/Editor/Mono/HostView.cs:255)
 }</args></log4net.Error>
-2019-01-18 17:42:12,178 [ 1] INFO  Unity: Character_6_CharacterWarrior OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0
-2019-01-18 17:42:12,291 [ 1] INFO  Unity: LevelLoadCompleted:1
-2019-01-18 17:42:12,292 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{MissingReferenceException: The object of type 'GameObject' has been destroyed but you are still trying to access it.
-Your script should either check if it is null or you should not destroy the object., UIMinimap.InitMap () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:40)
-UIMinimap.Start () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:26)
-}</args></log4net.Error>
-2019-01-18 17:54:38,544 [ 1] INFO  Unity: Character_6_CharacterWarrior OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0
-2019-01-18 17:54:38,547 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2019-01-18 17:54:38,548 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2019-01-21 17:08:12,118 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2019-01-21 17:08:12,120 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:195)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:190)

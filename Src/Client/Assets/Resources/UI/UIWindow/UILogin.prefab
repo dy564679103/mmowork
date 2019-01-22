@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 224163233104779462}
   - component: {fileID: 114923643963424128}
   m_Layer: 5
-  m_Name: Tog_CheckBox
+  m_Name: Tog_RememberUserName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 224809881577023280}
   - component: {fileID: 114187126752083868}
   m_Layer: 5
-  m_Name: Tog_CheckInfo
+  m_Name: Tog_UserAgreement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224629011511451614}
   - component: {fileID: 222035858615269766}
-  - component: {fileID: 114281744601875936}
+  - component: {fileID: 114343956837233784}
   m_Layer: 5
   m_Name: Panel_Login
   m_TagString: Untagged
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114281744601875936}
+      - m_Target: {fileID: 0}
         m_MethodName: OnClickLogin
         m_Mode: 1
         m_Arguments:
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1827932550661308}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -1404,7 +1404,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1463235118881266}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -1431,21 +1431,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u8BF7\u8F93\u5165\u5BC6\u7801..."
---- !u!114 &114281744601875936
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1675411973625618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a29727c8ed427e34d9c3bd2e8711e8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  username: {fileID: 114616292981866162}
-  password: {fileID: 114987481944825130}
-  btnLogin: {fileID: 114041174087990876}
-  btnRegister: {fileID: 114345361350557636}
 --- !u!114 &114292970488588244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1605,6 +1590,23 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114343956837233784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1675411973625618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8bb62ce5ce3754abb525b5d8f1f5e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputUsername: {fileID: 114616292981866162}
+  inputPassword: {fileID: 114987481944825130}
+  buttonLogin: {fileID: 114041174087990876}
+  buttonRegister: {fileID: 114345361350557636}
+  toggleRememberAccount: {fileID: 114923643963424128}
+  toggleUserAgreement: {fileID: 114187126752083868}
 --- !u!114 &114345361350557636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2412,7 +2414,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 1
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -2448,7 +2450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '*'
 --- !u!114 &114672411812007156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3055,7 +3057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 1
 --- !u!114 &114971574754130582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3142,7 +3144,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 1
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
